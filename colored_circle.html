@@ -12,5 +12,22 @@
 		<p>---</p>
 		<div id="hello_world"></div>
 		<p>--</p>
+		
+		<table border="1">
+		<tr><td>Color</td><td>Name</td></tr>
+		<tr><td>ignore</td><td id='test' >test</td></tr>
+		<tr><td><input class=color id=001 type=text onchange="changeStyle('path.cell', 'fill', '#'+getElementById('001').value);"/></td><td><p onclick="changeStyle('path.cell', 'fill', '#'+getElementById('001').value);">Cell</p> </td> 
+		<tr><td><input class=color id=002 type=text onchange="changeStyle('path.nucleus', 'fill', '#'+getElementById('002').value);"/></td><td><p onclick="changeStyle('path.nucleus', 'fill', '#'+getElementById('002').value)">Nucleus</p> </td>
+		<tr><td><input class=color id=003 type=text onchange="changeStyle('path.vacuole', 'fill', '#'+getElementById('003').value);"/></td><td><p onclick="changeStyle('path.vacuole', 'fill', '#'+getElementById('003').value)">Vacuoles</p></td>
+		<tr><td><input class=color id=004 type=text onchange="changeStyle('path.centrosphere', 'fill', '#'+getElementById('004').value);"/></td><td><p onclick="changeStyle('path.centrosphere', 'fill', '#'+getElementById('004').value)">centrosphere</p> </td>
+		<tr><td><input class=color id=005 type=text onchange="changeStyle('path.centriol', 'fill', '#'+getElementById('005').value);"/></td><td><p onclick="changeStyle('path.centriol', 'fill', '#'+getElementById('005').value)">centriol</p> </td>
+		<tr><td><input class=color id=006 type=text onchange="changeStyle('path.nucleolus', 'fill', '#'+getElementById('006').value);"/></td><td><p onclick="changeStyle('path.nucleolus', 'fill', '#'+getElementById('006').value)">nucleolus</p> </td>
+		<tr><td><input class=color id=007 type=text onchange="changeStyle('path.cellinclusion', 'fill', '#'+getElementById('007').value);"/></td><td><p onclick="changeStyle('path.cellinclusion', 'fill', '#'+getElementById('007').value)">cellinclusion</p> </td>
+
+		</table>
+		
+		
+		
+		
 	</body>
 </html>
